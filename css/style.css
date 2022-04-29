@@ -18,3 +18,30 @@
     font-size: 20px;
     color: black;
 }
+
+#form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50%;
+    align-items: center;
+    margin: 40px auto;
+}
+#email{
+    width: 300px;
+    height: 25px;
+}
+
+#submit{
+    margin-top: 20px;
+    background-color: #f1c40f;
+    text-transform: uppercase;
+    width: 150px;
+    border: 0;
+    height: 30px;
+    font-size: 18px;
+}
+#submit:hover{
+    background-color: orange;
+    transition: background-color 1s;
+}
